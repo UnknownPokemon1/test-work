@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500"
+    />
+    <title>HTML Preview</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="compiled-styles.css" />
+  </head>
+  <body style="margin: 0px">
+    <!-- This only removes default margins in our renderer iframe, you may remove -->
+    <div id="firejet-html-app">
+      <main class="font-roboto w-full pt-px text-xl leading-[normal] tracking-[0px] text-white" >
+        <section class="flex h-40 flex-col justify-end gap-y-[15px] bg-cyan-950 px-6 py-1" >
+          <div class="flex items-center gap-x-[17px]">
+            <object
+              data="/assets/Foto.svg"
+              class="h-12 w-12 flex-shrink-0"
+            ></object>
+            <div class="w-[88px] flex-shrink-0 font-bold">
+              <p>Имя</p>
+              <p>Фамилия</p>
+            </div>
+          </div>
+          <div class="flex h-1.5 flex-shrink-0 flex-col items-center justify-end" >
+            <div class="h-px w-[350px] flex-shrink-0 bg-neutral-500"></div>
+          </div>
+          <div class="flex flex-wrap items-center rounded-[15px] bg-sky-900 pb-1 pl-[17px] pr-60 pt-[3px] focus-within:[box-shadow:0_0_4px_#1e40af] min-[390px]:flex-nowrap" >
+            <div class="flex h-[19px] w-[18px] flex-shrink-0 flex-col items-center pt-px" >
+              <object
+                data="/assets/Search_icon.svg"
+                class="h-[18px] w-[18px] flex-shrink-0"
+              ></object>
+            </div>
+            <input
+              placeholder="Поиск"
+              type="text"
+              class="flex-grow [min-width:0] [outline:none] placeholder:text-white"
+            />
+          </div>
+        </section>
+        <section class="relative flex flex-col items-center justify-center gap-y-[13px] bg-cyan-950 px-6 pb-6 pt-[11px]" >
+          <aside class="flex flex-wrap items-center gap-x-5 gap-y-[3.5px] self-stretch rounded-[15px] bg-green-500 pb-[13px] pl-3 pr-32 pt-3 min-[390px]:flex-nowrap" >
+            <object
+              data="/assets/Vector.svg"
+              class="h-1.5 w-3.5"
+            ></object>
+            <div class="font-bold">Блок измерителей</div>
+          </aside>
+          <div class="flex self-stretch pr-40 pt-1.5">
+            <div class="flex items-center justify-center gap-x-3 pl-1">
+              <object
+                data="/assets/Component.svg"
+                class="h-[30px] w-[30px] flex-shrink-0"
+              ></object>
+              <div class="flex flex-grow flex-col self-stretch">
+                <div>Источник тока</div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-y-[13px] self-stretch pl-1 pr-[87px]">
+            <div class="flex items-center justify-center gap-x-3">
+              <div class="bg-t-bg-group-13group-14vector z-0 flex h-[30px] w-[30px] flex-shrink-0 flex-col items-center justify-center gap-y-[11px] bg-cover bg-center px-3 pb-[6.5px] pt-[5px]" >
+                <object
+                  data="/assets/Group2.svg"
+                  class="z-[1] h-1.5 w-1.5 flex-shrink-0"
+                ></object
+                ><object
+                  data="/assets/Vector1.svg"
+                  class="z-[2] h-px flex-shrink-0 self-stretch"
+                ></object>
+              </div>
+              <div class="flex flex-grow flex-col self-stretch">
+                <div>Истоник напряжения 1</div>
+              </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-3">
+              <div class="bg-t-bg-group-13tgroup-14vector z-0 flex h-[30px] w-[30px] flex-shrink-0 flex-col items-center justify-center gap-y-[11px] bg-cover bg-center px-3 pb-[6.5px] pt-[5px]" >
+                <div class="z-[1] flex h-1.5 w-[7px] flex-shrink-0 flex-col items-center" >
+                  <object
+                    data="/assets/Group3.svg"
+                    class="h-1.5 w-1.5 flex-shrink-0"
+                  ></object>
+                </div>
+                <object
+                  data="/assets/Vector2.svg"
+                  class="z-[2] h-px flex-shrink-0 self-stretch"
+                ></object>
+              </div>
+              <div class="flex flex-grow flex-col self-stretch">
+                <div>Истоник напряжения 2</div>
+              </div>
+            </div>
+          </div>
+          <div class="flex self-stretch pl-1 pr-48">
+            <div class="flex flex-col gap-y-[13px]">
+              <div class="flex items-center justify-center gap-x-3">
+                <object
+                  data="/assets/Component1.svg"
+                  class="h-[30px] w-[30px] flex-shrink-0"
+                ></object>
+                <div class="flex flex-grow flex-col self-stretch">
+                  <div>Генератор 1</div>
+                </div>
+              </div>
+              <div class="flex items-center justify-center gap-x-3">
+                <object
+                  data="/assets/Group4.svg"
+                  class="h-[30px] w-[30px] flex-shrink-0"
+                ></object>
+                <div class="flex flex-grow flex-col self-stretch">
+                  <div>Генератор 2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-x-3 self-stretch px-1">
+            <object
+              data="/assets/Group5.svg"
+              class="h-[30px] w-[30px] flex-shrink-0"
+            ></object>
+            <div>Амперметр</div>
+          </div>
+          <div class="flex self-stretch pl-1 pr-48">
+            <div class="flex flex-col gap-y-[13px]">
+              <div class="flex items-center justify-center gap-x-3">
+                <object
+                  data="/assets/Group6.svg"
+                  class="h-[30px] w-[30px] flex-shrink-0"
+                ></object>
+                <div class="flex-grow">Вольтметр 1</div>
+              </div>
+              <div class="flex items-center justify-center gap-x-3">
+                <object
+                  data="/assets/Component2.svg"
+                  class="h-[30px] w-[30px] flex-shrink-0"
+                ></object>
+                <div class="flex flex-grow flex-col self-stretch">
+                  <div>Вольтметр 2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-x-3 self-stretch px-1">
+            <object
+              data="/assets/Component3.svg"
+              class="h-[30px] w-[30px] flex-shrink-0"
+            ></object>
+            <div>Ваттметр</div>
+          </div>
+          <div class="flex items-center gap-x-3 self-stretch px-1">
+            <object
+              data="/assets/Icon.svg"
+              class="h-[30px] w-[30px] flex-shrink-0"
+            ></object>
+            <div class="font-inter">Осциллограф</div>
+          </div>
+          <div class="flex items-center gap-x-3 self-stretch px-1">
+            <object
+              data="/assets/Union.svg"
+              class="h-[30px] w-[30px] flex-shrink-0"
+            ></object>
+            <div class="self-stretch"><div>Самописец</div></div>
+          </div>
+          <aside class="flex flex-col justify-end self-stretch pt-5">
+            <div class="flex flex-wrap items-center gap-x-5 gap-y-[3.5px] rounded-[15px] bg-green-500 px-3 pb-[13px] pt-3 min-[390px]:flex-nowrap" >
+              <object
+                data="/assets/Vector3.svg"
+                class="h-1.5 w-3.5"
+              ></object>
+              <div class="font-bold">Методическое обеспечение</div>
+            </div>
+          </aside>
+          <div class="flex items-center justify-center gap-x-[19px] self-stretch pl-[11px] pr-[74px] pt-1.5" >
+            <object
+              data="/assets/Temporary_icon.svg"
+              class="h-[30px] w-4 flex-shrink-0"
+            ></object>
+            <div class="flex flex-grow flex-col self-stretch">
+              <div>Блок выбора комплекта</div>
+            </div>
+          </div>
+          <div class="flex items-center justify-center gap-x-3 self-stretch pl-1 pr-16 pt-[3px]" >
+            <div class="self-stretch">
+              <object
+                data="/assets/Theory_icon.svg"
+                class="h-[22px] w-[30px]"
+              ></object>
+            </div>
+            <div>Теоретический материал</div>
+          </div>
+          <div class="flex items-center justify-center gap-x-4 self-stretch pl-2 pr-[30px] pt-[5px]" >
+            <object
+              data="/assets/Union1.svg"
+              class="h-7 w-[22px] flex-shrink-0"
+            ></object>
+            <div class="flex flex-grow flex-col self-stretch">
+              <div>Тест / контрольные вопросы</div>
+            </div>
+          </div>
+          <div class="flex items-center justify-center gap-x-3 self-stretch pl-2 pr-20 pt-1" >
+            <object
+              data="/assets/Practice_icon.svg"
+              class="mb-1 h-[26px] w-[26px]"
+            ></object>
+            <div class="w-56 flex-shrink-0 self-stretch">
+              <p>Практическая работа</p>
+              <p>Таблица, график, вывод</p>
+            </div>
+          </div>
+          <div class="absolute right-[3px] top-[3px] h-56 w-1 flex-shrink-0 rounded-full bg-sky-700" ></div>
+        </section>
+        <div class="flex h-[85px] flex-col items-center gap-y-[15px] bg-cyan-950 px-6 py-[13px]" >
+          <div class="h-px w-[350px] flex-shrink-0 bg-neutral-500"></div>
+          <button class="flex items-center justify-center gap-x-64 self-stretch" >
+            <div class="font-inter">Выход</div>
+            <object
+              data="/assets/Settings_icon.svg"
+              class="h-5 w-5 flex-shrink-0"
+            ></object>
+          </button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
+
+<!--
+  This component was generated from Figma with FireJet. 
+  Learn more at https://www.firejet.io
+  
+  README:
+  The output code may look slightly different when copied to your codebase. To fix this:
+  1. Include the necessary fonts. The required fonts are imported from index.html
+  2. Include the global styles. They can be found in styles.css
+  
+  Note: Step 2 is not required for tailwind.css output
+-->
